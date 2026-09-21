@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b68705b3-4931-4c2a-8e0a-3d227c8b5908">
+  <producedTypes>
+    <objectType typeId="08ffa469-d1d4-4c98-9e4c-1db84b4f9bd1" valueTypeId="c9641609-4537-4b06-b6b2-b7273b3def90"/>
+    <refType typeId="04e592ee-16f0-47d3-91e9-a89e04f0f3aa" valueTypeId="19819854-0e6b-4b34-b6af-3bdd3958ed6a"/>
+    <selectionType typeId="96fc54c1-6f33-4ecb-af66-b145fa8122a2" valueTypeId="4d7a761b-2ad7-45bd-82e4-3731ba9b99d5"/>
+    <listType typeId="785399a8-065f-484c-a864-3aba702ab728" valueTypeId="c3096d56-a3a5-4dca-9335-1304f1cb1dc0"/>
+    <managerType typeId="ad7430b8-b6b9-4b3b-a730-1dfe3c6269fe" valueTypeId="35c4eeee-61a3-40c3-8d38-0c5ef2e0cd29"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Номенклатура.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="b3a6ba8a-f918-40fc-bdc4-68dfebc5e709">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
